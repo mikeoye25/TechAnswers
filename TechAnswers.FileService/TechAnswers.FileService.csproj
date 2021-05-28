@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-TechAnswers.FileService-6284C49D-4D0E-4BA5-A88F-23426B35D10F</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="27.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TechAnswers.Data\TechAnswers.Data.csproj" />
+    <ProjectReference Include="..\TechAnswers.Services\TechAnswers.Services.csproj" />
+  </ItemGroup>
+</Project>
